@@ -1,0 +1,189 @@
+% Bibliografia do artigo (IEEEtran.bst). Só entram referências verificadas por DOI ou busca.
+% Verificação de 23/10/2026: DOIs conferidos na API do Crossref (título, autores, volume,
+% páginas); livros sem DOI, a norma ISO e o datasheet da TI conferidos por busca em catálogos.
+% Títulos de artigo em sentence case (regra IEEE). Separadores com traço nos títulos originais
+% (ISO 14839-3, ROSS) foram trocados por dois-pontos (CLAUDE.md, regra 1).
+
+% Controle do IEEEtran.bst: não trocar autores repetidos por traço longo (CLAUDE.md, regra 1).
+% Ativado por \bstctlcite{BSTcontrol} logo após \begin{document}.
+@IEEEtranBSTCTL{BSTcontrol,
+  CTLdash_repeated_names = "no"
+}
+
+@article{choudhury2021flywheel,
+  author  = {Choudhury, Subhashree},
+  title   = {Flywheel energy storage systems: A critical review on technologies, applications, and future prospects},
+  journal = {International Transactions on Electrical Energy Systems},
+  volume  = {31},
+  number  = {9},
+  year    = {2021},
+  doi     = {10.1002/2050-7038.13024},
+  note    = {doi: \url{10.1002/2050-7038.13024}}
+}
+
+@book{schweitzer2009magnetic,
+  editor    = {Schweitzer, Gerhard and Maslen, Eric H.},
+  title     = {Magnetic Bearings: Theory, Design, and Application to Rotating Machinery},
+  publisher = {Springer},
+  address   = {Berlin, Germany},
+  year      = {2009},
+  doi       = {10.1007/978-3-642-00497-1},
+  note    = {doi: \url{10.1007/978-3-642-00497-1}}
+}
+
+@article{wu2025review,
+  author  = {Wu, Tong and Zhang, Weiyu},
+  title   = {Review on key development of magnetic bearings},
+  journal = {Machines},
+  volume  = {13},
+  number  = {2},
+  pages   = {113},
+  year    = {2025},
+  doi     = {10.3390/machines13020113},
+  note    = {doi: \url{10.3390/machines13020113}}
+}
+
+@article{du2025review,
+  author  = {Du, Yuanhao and Zhang, Gan and Hua, Wei},
+  title   = {Review on research and development of magnetic bearings},
+  journal = {Energies},
+  volume  = {18},
+  number  = {12},
+  pages   = {3222},
+  year    = {2025},
+  doi     = {10.3390/en18123222},
+  note    = {doi: \url{10.3390/en18123222}}
+}
+
+@article{zhao2026constraint,
+  author  = {Zhao, Wenhao and Zheng, Jun and Liu, Wei and Feng, Ding},
+  title   = {Constraint control strategy of radial active magnetic bearings for maglev flywheel rotors: Modelling, experiment and prototype},
+  journal = IEEE_J_EC,
+  note    = {early access, doi: \url{10.1109/TEC.2026.3707852}},
+  year    = {2026},
+  doi     = {10.1109/TEC.2026.3707852}
+}
+
+@article{castellanos2021offset,
+  author  = {{Castellanos Molina}, Luis M. and Bonfitto, Angelo and Galluzzi, Renato},
+  title   = {Offset-free model predictive control for a cone-shaped active magnetic bearing system},
+  journal = {Mechatronics},
+  volume  = {78},
+  pages   = {102612},
+  year    = {2021},
+  doi     = {10.1016/j.mechatronics.2021.102612},
+  note    = {doi: \url{10.1016/j.mechatronics.2021.102612}}
+}
+
+@article{wang2026identification,
+  author  = {Wang, Zhe and Wu, Han and Song, Xinyan and Zou, Yuwan and Sa, Xingwei and Zhao, Zhenjun},
+  title   = {A review of system identification for active magnetic bearings: A closed-loop perspective from theory to engineering validation},
+  journal = {International Journal of Dynamics and Control},
+  volume  = {14},
+  number  = {2},
+  pages   = {67},
+  year    = {2026},
+  doi     = {10.1007/s40435-025-01984-0},
+  note    = {doi: \url{10.1007/s40435-025-01984-0}}
+}
+
+@book{friswell2010dynamics,
+  author    = {Friswell, Michael I. and Penny, John E. T. and Garvey, Seamus D. and Lees, Arthur W.},
+  title     = {Dynamics of Rotating Machines},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge, U.K.},
+  year      = {2010},
+  doi       = {10.1017/CBO9780511780509},
+  note    = {doi: \url{10.1017/CBO9780511780509}}
+}
+
+@article{timbo2020ross,
+  author  = {Timb{\'o}, Raphael and Martins, Rodrigo and Bachmann, Gabriel and Rangel, Flavio and Mota, J{\'u}lia and Val{\'e}rio, Juliana and Ritto, Thiago},
+  title   = {{ROSS}: Rotordynamic open source software},
+  journal = {Journal of Open Source Software},
+  volume  = {5},
+  number  = {48},
+  pages   = {2120},
+  year    = {2020},
+  doi     = {10.21105/joss.02120},
+  note    = {doi: \url{10.21105/joss.02120}}
+}
+
+@article{virtanen2020scipy,
+  author  = {Virtanen, Pauli and others},
+  title   = {{SciPy} 1.0: Fundamental algorithms for scientific computing in {Python}},
+  journal = {Nature Methods},
+  volume  = {17},
+  number  = {3},
+  pages   = {261--272},
+  year    = {2020},
+  doi     = {10.1038/s41592-019-0686-2},
+  note    = {doi: \url{10.1038/s41592-019-0686-2}}
+}
+
+@article{kalman1960new,
+  author  = {Kalman, R. E.},
+  title   = {A new approach to linear filtering and prediction problems},
+  journal = {Journal of Basic Engineering},
+  volume  = {82},
+  number  = {1},
+  pages   = {35--45},
+  year    = {1960},
+  doi     = {10.1115/1.3662552},
+  note    = {doi: \url{10.1115/1.3662552}}
+}
+
+@book{bryson1975applied,
+  author    = {{Bryson, Jr.}, Arthur E. and Ho, Yu-Chi},
+  title     = {Applied Optimal Control: Optimization, Estimation, and Control},
+  publisher = {Hemisphere},
+  address   = {Washington, DC, USA},
+  year      = {1975}
+}
+
+@article{doyle1978guaranteed,
+  author  = {Doyle, J. C.},
+  title   = {Guaranteed margins for {LQG} regulators},
+  journal = IEEE_J_AC,
+  volume  = {23},
+  number  = {4},
+  pages   = {756--757},
+  year    = {1978},
+  doi     = {10.1109/TAC.1978.1101812},
+  note    = {doi: \url{10.1109/TAC.1978.1101812}}
+}
+
+@book{franklin1998digital,
+  author    = {Franklin, Gene F. and Powell, J. David and Workman, Michael L.},
+  title     = {Digital Control of Dynamic Systems},
+  edition   = {3rd},
+  publisher = {Addison-Wesley},
+  year      = {1998}
+}
+
+@article{nehorai1985minimal,
+  author  = {Nehorai, A.},
+  title   = {A minimal parameter adaptive notch filter with constrained poles and zeros},
+  journal = IEEE_J_ASSP,
+  volume  = {33},
+  number  = {4},
+  pages   = {983--996},
+  year    = {1985},
+  doi     = {10.1109/TASSP.1985.1164643},
+  note    = {doi: \url{10.1109/TASSP.1985.1164643}}
+}
+
+@standard{iso14839_3,
+  title        = {Mechanical Vibration: Vibration of Rotating Machinery Equipped With Active Magnetic Bearings, Part 3: Evaluation of Stability Margin},
+  organization = {International Organization for Standardization},
+  address      = {Geneva, Switzerland},
+  number       = {ISO 14839-3:2006},
+  year         = {2006}
+}
+
+@manual{ti2024f2837xd,
+  title        = {{TMS320F2837xD} Dual-Core Real-Time Microcontrollers},
+  organization = {Texas Instruments},
+  note         = {Datasheet SPRS880P},
+  year         = {2024}
+}
